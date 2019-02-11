@@ -46,3 +46,6 @@
 [submodule "pack/bsnux/opt/auto-pairs"]
 	path = pack/bsnux/opt/auto-pairs
 	url = https://github.com/jiangmiao/auto-pairs
+[submodule "pack/bsnux/start/YouCompleteMe"]
+	path = pack/bsnux/start/YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe
