@@ -1,63 +1,63 @@
 [submodule "pack/bsnux/start/nerdcommenter"]
-	path = pack/bsnux/start/nerdcommenter
+	path = pack/coding/start/nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter/
 [submodule "pack/bsnux/opt/onedark.vim"]
-	path = pack/bsnux/opt/onedark.vim
+	path = pack/themes/opt/onedark.vim
 	url = https://github.com/joshdick/onedark.vim
 [submodule "pack/bsnux/start/ale"]
-	path = pack/bsnux/start/ale
+	path = pack/coding/start/ale
 	url = https://github.com/w0rp/ale
 [submodule "pack/bsnux/start/ack.vim"]
-	path = pack/bsnux/start/ack.vim
+	path = pack/searching/start/ack.vim
 	url = https://github.com/mileszs/ack.vim
 [submodule "pack/bsnux/start/vim-airline"]
-	path = pack/bsnux/start/vim-airline
+	path = pack/statusbar/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline
 [submodule "pack/bsnux/start/vim-airline-themes"]
-	path = pack/bsnux/start/vim-airline-themes
+	path = pack/statusbar/start/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes
 [submodule "pack/bsnux/start/vim-fugitive"]
-	path = pack/bsnux/start/vim-fugitive
+	path = pack/git/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive
 [submodule "pack/bsnux/start/fzf.vim"]
-	path = pack/bsnux/start/fzf.vim
+	path = pack/searching/start/fzf.vim
 	url = https://github.com/junegunn/fzf.vim
 [submodule "pack/bsnux/start/fzf"]
-	path = pack/bsnux/start/fzf
+	path = pack/searching/start/fzf
 	url = https://github.com/junegunn/fzf
 [submodule "pack/bsnux/start/vim-gitgutter"]
-	path = pack/bsnux/start/vim-gitgutter
+	path = pack/git/start/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter
 [submodule "pack/bsnux/start/vim-highlightedyank"]
-	path = pack/bsnux/start/vim-highlightedyank
+	path = pack/misc/start/vim-highlightedyank
 	url = https://github.com/machakann/vim-highlightedyank
 [submodule "pack/bsnux/start/vim-easymotion"]
-	path = pack/bsnux/start/vim-easymotion
+	path = pack/misc/start/vim-easymotion
 	url = https://github.com/easymotion/vim-easymotion
 [submodule "pack/bsnux/start/editorconfig-vim"]
-	path = pack/bsnux/start/editorconfig-vim
+	path = pack/coding/start/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim
 [submodule "pack/bsnux/start/tagbar"]
-	path = pack/bsnux/start/tagbar
+	path = pack/coding/start/tagbar
 	url = https://github.com/majutsushi/tagbar/
 [submodule "pack/bsnux/start/vim-multiple-cursor"]
-	path = pack/bsnux/start/vim-multiple-cursor
+	path = pack/coding/start/vim-multiple-cursor
 	url = https://github.com/terryma/vim-multiple-cursors
 [submodule "pack/bsnux/opt/auto-pairs"]
-	path = pack/bsnux/opt/auto-pairs
+	path = pack/misc/opt/auto-pairs
 	url = https://github.com/jiangmiao/auto-pairs
 [submodule "pack/bsnux/start/YouCompleteMe"]
-	path = pack/bsnux/start/YouCompleteMe
+	path = pack/coding/start/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe
 [submodule "pack/bsnux/opt/seoul256.vim"]
-	path = pack/bsnux/opt/seoul256.vim
+	path = pack/themes/opt/seoul256.vim
 	url = https://github.com/junegunn/seoul256.vim
 [submodule "pack/bsnux/opt/twilight256.vim"]
-	path = pack/bsnux/opt/twilight256.vim
+	path = pack/themes/opt/twilight256.vim
 	url = https://github.com/vim-scripts/twilight256.vim
 [submodule "pack/bsnux/opt/materialbox"]
-	path = pack/bsnux/opt/materialbox
+	path = pack/themes/opt/materialbox
 	url = https://github.com/mkarmona/materialbox
 [submodule "pack/bsnux/opt/vim-solarized8"]
-	path = pack/bsnux/opt/vim-solarized8
+	path = pack/themes/opt/vim-solarized8
 	url = https://github.com/lifepillar/vim-solarized8.git
