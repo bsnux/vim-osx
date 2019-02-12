@@ -49,3 +49,15 @@
 [submodule "pack/bsnux/start/YouCompleteMe"]
 	path = pack/bsnux/start/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe
+[submodule "pack/bsnux/opt/seoul256.vim"]
+	path = pack/bsnux/opt/seoul256.vim
+	url = https://github.com/junegunn/seoul256.vim
+[submodule "pack/bsnux/opt/twilight256.vim"]
+	path = pack/bsnux/opt/twilight256.vim
+	url = https://github.com/vim-scripts/twilight256.vim
+[submodule "pack/bsnux/opt/materialbox"]
+	path = pack/bsnux/opt/materialbox
+	url = https://github.com/mkarmona/materialbox
+[submodule "pack/bsnux/opt/vim-solarized8"]
+	path = pack/bsnux/opt/vim-solarized8
+	url = https://github.com/lifepillar/vim-solarized8.git

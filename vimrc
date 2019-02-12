@@ -15,6 +15,10 @@
 
 packadd! onedark.vim
 packadd! auto-pairs
+packadd! seoul256.vim
+packadd! twilight256.vim
+packadd! materialbox
+packadd! vim-solarized8
 
 set guifont=Fira\ Code:h13.5
 
