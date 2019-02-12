@@ -7,7 +7,10 @@
 "     <C-i>		Jump backward
 "     <C-l>		Unmark current selection
 "     <C-n>		Multiple-cursors. `I` for inserting
-
+"
+" ---- Remote files
+"     scp://user@server//absolute/path/to/file
+"
 " ---- Generic configuration
 
 packadd! onedark.vim
