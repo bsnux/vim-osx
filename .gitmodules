@@ -61,3 +61,6 @@
 [submodule "pack/bsnux/opt/vim-solarized8"]
 	path = pack/themes/opt/vim-solarized8
 	url = https://github.com/lifepillar/vim-solarized8.git
+[submodule "pack/misc/opt/vimoutliner"]
+	path = pack/misc/opt/vimoutliner
+	url = https://github.com/vimoutliner/vimoutliner/

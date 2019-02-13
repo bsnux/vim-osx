@@ -5,11 +5,21 @@
 "     <leader>,w	Easy motion
 "     <C-o>		Jump forward
 "     <C-i>		Jump backward
-"     <C-l>		Unmark current selection
+"     <C-l>		Clear highlighting
 "     <C-n>		Multiple-cursors. `I` for inserting
 "
 " ---- Remote files
 "     scp://user@server//absolute/path/to/file
+"
+" ---- Fugitive
+"     -                 Add file
+"     C                 Commit add file/files
+"     :Gcommit %        Commit current file
+"
+" ---- Macros
+"     qa                Starting recording macro in `a`
+"     q                 Stop recording
+"     @a                Execute macro stored in `a`
 "
 " ---- Generic configuration
 
@@ -19,6 +29,7 @@ packadd! seoul256.vim
 packadd! twilight256.vim
 packadd! materialbox
 packadd! vim-solarized8
+packadd! vimoutliner
 
 set guifont=Fira\ Code:h13.5
 
@@ -37,7 +48,7 @@ set splitright
 
 set cursorline
 
-" Use <C-L> to clear the highlighting of :set hlsearch.
+" Use <C-l> to clear the highlighting of :set hlsearch.
 if maparg('<C-L>', 'n') ==# ''
   nnoremap <silent> <C-L> :nohlsearch<CR><C-L>
 endif
@@ -153,6 +164,11 @@ set hidden
 
 " Ignoring case when searching
 set ignorecase
+
+" Copying to clipboard using `y`:
+set clipboard=unnamed
+
+let macvim_hig_shift_movement = 1
 
 "" ---- Plugins configuration
 "

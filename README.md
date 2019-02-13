@@ -2,6 +2,11 @@
 
 Configuration files/plugins for `MacVim` on `macOS`
 
+## Tested versions
+
+* macOS 10.14
+* MacVim 8.1.873
+
 ## Installation
 
 ```
