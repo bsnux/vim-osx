@@ -3,6 +3,8 @@ macmenu File.Print key=<nop>
 nnoremap <D-p> :Buffers<CR>
 nnoremap <D-right> :bn<CR>
 nnoremap <D-left> :bp<CR>
+macmenu File.Close key=<nop>
+nnoremap <D-w> :bd<CR>
 
 set lines=60
 set columns=120
