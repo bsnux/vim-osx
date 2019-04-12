@@ -31,6 +31,8 @@ packadd! materialbox
 packadd! vim-solarized8
 packadd! vimoutliner
 
+set encoding=utf-8
+
 set guifont=Fira\ Code:h13.5
 
 set nu
@@ -175,6 +177,11 @@ set ignorecase
 set clipboard=unnamed
 
 let macvim_hig_shift_movement = 1
+
+" Enable folding
+set foldmethod=indent
+set foldlevel=99
+nnoremap <space> za
 
 "" ---- Plugins configuration
 "
