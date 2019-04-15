@@ -64,3 +64,6 @@
 [submodule "pack/misc/opt/vimoutliner"]
 	path = pack/misc/opt/vimoutliner
 	url = https://github.com/vimoutliner/vimoutliner/
+[submodule "pack/themes/opt/dracula-theme"]
+	path = pack/themes/opt/dracula-theme
+	url = git@github.com:dracula/vim.git

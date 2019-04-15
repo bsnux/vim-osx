@@ -30,6 +30,7 @@ packadd! twilight256.vim
 packadd! materialbox
 packadd! vim-solarized8
 packadd! vimoutliner
+packadd! dracula-theme
 
 set encoding=utf-8
 
@@ -63,7 +64,8 @@ autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
 " Color schemes
 set bg=dark
 "colorscheme onedark
-colorscheme materialbox
+"colorscheme materialbox
+colorscheme dracula
 
 " Find merge conflict markers
 map <leader>fc /\v^[<\|=>]{7}( .*\|$)<CR><Paste>
