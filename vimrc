@@ -31,6 +31,7 @@ packadd! materialbox
 packadd! vim-solarized8
 packadd! vimoutliner
 packadd! dracula-theme
+packadd! haproxy.vim
 
 set encoding=utf-8
 
