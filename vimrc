@@ -51,6 +51,8 @@ set splitright
 
 set cursorline
 
+set hlsearch
+
 " Use <C-l> to clear the highlighting of :set hlsearch.
 if maparg('<C-L>', 'n') ==# ''
   nnoremap <silent> <C-L> :nohlsearch<CR><C-L>
@@ -63,9 +65,9 @@ autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
 
 " Color schemes
 set bg=dark
-"colorscheme onedark
+colorscheme onedark
 "colorscheme materialbox
-colorscheme dracula
+""colorscheme dracula
 
 " Find merge conflict markers
 map <leader>fc /\v^[<\|=>]{7}( .*\|$)<CR><Paste>
@@ -78,6 +80,7 @@ imap <C-e> <esc>$a
 imap <C-a> <esc>0i
 imap <C-f> <esc>lli
 imap <C-b> <esc>i
+imap <C-k> <esc>d$i
 
 " Emacs keys for command line
 cnoremap <C-A>	<Home>
@@ -102,7 +105,7 @@ function! ToggleNetrw()
         let i = bufnr("$")
         while (i >= 1)
             if (getbufvar(i, "&filetype") == "netrw")
-                silent exe "bwipeout " . i 
+                silent exe "bwipeout " . i
             endif
             let i-=1
         endwhile
@@ -121,9 +124,9 @@ autocmd BufNewFile,BufRead *.go setlocal tabstop=2 shiftwidth=2
 autocmd BufNewFile,BufRead Jenkinsfile set ft=groovy
 
 " Bash
-" show existing tab with 4 spaces width:       set tabstop=2
-" when indenting with '>', use 4 spaces width: set shiftwidth=2
-" On pressing tab, insert 4 spaces:            set expandtab
+" show existing tab with 2 spaces width:       set tabstop=2
+" when indenting with '>', use 2 spaces width: set shiftwidth=2
+" On pressing tab, insert 2 spaces:            set expandtab
 autocmd BufNewFile,BufRead *.sh set tabstop=2 shiftwidth=2 expandtab
 
 " Python
@@ -134,6 +137,9 @@ au BufNewFile,BufRead *.js set tabstop=2 softtabstop=2 shiftwidth=2 expandtab au
 
 " Markdown
 au BufRead,BufNewFile *.md setlocal textwidth=80
+
+" Dockerfile
+autocmd BufNewFile,BufRead *Dockerfile* set tabstop=4 shiftwidth=4 expandtab ft=Dockerfile
 
 " Move current line up
 nmap <C-S-Up> ddkP

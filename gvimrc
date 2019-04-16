@@ -9,6 +9,8 @@ nnoremap <D-w> :bd<CR>
 set lines=60
 set columns=120
 
+set autoread
+
 if exists("macvim_hig_shift_movement")
   " Shift + special movement key (<S-Left>, etc.) and mouse starts insert mode
   set selectmode=mouse,key
