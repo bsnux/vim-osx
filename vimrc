@@ -213,5 +213,6 @@ nmap <leader>gs :Gstatus<cr>
 " ctrl-x:   horizontal split
 " ctrl-v:   vertical split
 map <C-p> :FZF<CR>
+map <leader>p :Buffers<CR>
 " [Buffers] Jump to the existing window if possible
 let g:fzf_buffers_jump = 1
