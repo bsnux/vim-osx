@@ -67,3 +67,6 @@
 [submodule "pack/themes/opt/dracula-theme"]
 	path = pack/themes/opt/dracula-theme
 	url = git@github.com:dracula/vim.git
+[submodule "pack/coding/start/haproxy.vim"]
+	path = pack/coding/start/haproxy.vim
+	url = https://github.com/zimbatm/haproxy.vim
