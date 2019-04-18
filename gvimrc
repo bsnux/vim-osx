@@ -6,6 +6,9 @@ nnoremap <D-right> :bn<CR>
 nnoremap <D-left> :bp<CR>
 macmenu File.Close key=<nop>
 nnoremap <D-w> :bd<CR>
+macmenu File.Save key=<nop>
+inoremap <D-s> <ESC>:w<CR>
+nnoremap <D-s> :w<CR>
 
 set lines=60
 set columns=120
