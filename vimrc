@@ -1,6 +1,11 @@
 " MacVim configuration
 "
 "
+" ---  GUI and term from shell
+"
+"     alias vi="/Applications/MacVim.app/Contents/bin/mvim -v"
+"     alias mvim="/Applications/MacVim.app/Contents/bin/mvim --servername VIM --remote $1"
+"
 " ---- Default keybindings:
 "     <leader>,w	Easy motion
 "     <C-o>		Jump forward
@@ -34,11 +39,13 @@ packadd! dracula-theme
 
 set encoding=utf-8
 
-set guifont=Fira\ Code:h13.5
-
 set nu
 
 let mapleader = ','
+
+filetype on
+filetype plugin on
+syntax on
 
 set colorcolumn=80
 set noswapfile
