@@ -198,7 +198,10 @@ set foldmethod=indent
 set foldlevel=99
 nnoremap <space> za
 
-"" ---- Plugins configuration
+" Customizing vertical split separator
+hi VertSplit	guibg=#c2bfa5 guifg=grey50 gui=none
+
+" ---- Plugins configuration
 "
 " airline
 let g:airline_theme='light'
